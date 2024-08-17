@@ -23,7 +23,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
+            <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
 
@@ -35,7 +35,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
+            <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
           </div>
         </div>
@@ -50,9 +50,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">BSSE</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  IoBM - Karachi
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
@@ -74,9 +74,9 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Intermediate</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Commecs - Karachi
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2020 - 2021
@@ -86,9 +86,9 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">O-Levels</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  St. Pauls - Karachi
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2020
@@ -110,9 +110,9 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Udemy - Online
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2017 - 2018
@@ -130,12 +130,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">Web Development Apprenticeship</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  Udemy - Remote
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> Aug 2023 - Jan 2024
                 </div>
               </div>
 
@@ -154,22 +154,22 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">Freelance</h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  Fiverr - Remote
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2024 - Present
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Freelance</h3>
+                <span className="qualification__subtitle">Upwork - Remote</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2024 - Present
                 </div>
               </div>
 
