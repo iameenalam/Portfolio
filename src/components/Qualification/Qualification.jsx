@@ -79,7 +79,7 @@ const Qualification = () => {
                   Commecs - Karachi
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2022
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Qualification = () => {
                   Udemy - Online
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2024
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development Apprenticeship</h3>
+                <h3 className="qualification__title">Web Dev Student</h3>
                 <span className="qualification__subtitle">
                   Udemy - Remote
                 </span>

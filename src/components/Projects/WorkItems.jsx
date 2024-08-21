@@ -6,7 +6,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
       <img src={item.image} alt="" className="work__img" />
       <h3 className="work__title">{item.title}</h3>
       <a className="work__button" onClick={() => toggleTab(item.id)}>
-        Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        View Project <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
 
       <div
@@ -73,7 +73,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                   <button className="button button--flex">
                     Visit Website{" "}
                     <i
-                      className="uil uil-arrow-right button__icon"
+                      className="uil uil-external-link-alt button__icon"
                       style={{ fontSize: "1.3rem" }}
                     ></i>
                   </button>
@@ -153,7 +153,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
@@ -231,7 +231,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
@@ -301,7 +301,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
@@ -364,7 +364,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
@@ -437,7 +437,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
@@ -508,7 +508,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
@@ -580,7 +580,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
-                        className="uil uil-arrow-right button__icon"
+                        className="uil uil-external-link-alt button__icon"
                         style={{ fontSize: "1.3rem" }}
                       ></i>
                     </button>
