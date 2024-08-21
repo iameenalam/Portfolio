@@ -182,7 +182,7 @@
   /* For small devices */
   @media screen and (max-width: 375px) {
       .home__title {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
       }
   
       .home__img {
@@ -196,9 +196,25 @@
       }
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 350px) {
     .home__title {
       font-size: 2.4rem;
+    }
+
+    .home__img {
+        width: 200px;
+        height: 190px;
+    }
+
+    .home__hand {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+  @media screen and (max-width: 320px) {
+    .home__title {
+      font-size: 2.3rem;
     }
 
     .home__img {
