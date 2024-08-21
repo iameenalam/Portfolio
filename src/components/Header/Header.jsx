@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Header.css";
 
 const Header = () => {
@@ -21,9 +22,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <Link to="/#home" className="nav__logo">
           Ameen
-        </a>
+        </Link>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
