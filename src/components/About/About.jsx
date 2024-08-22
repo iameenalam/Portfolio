@@ -17,9 +17,9 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am a MERN stack developer skilled in MongoDB, Express.js, React.js,
-            and Node.js. I am passionate about building modern web solutions
-            that are efficient and user-friendly.
+            Hey, this is Ameen Alam, and I'm a web developer from Pakistan, proficient in the MERN stack
+            and passionate about building modern websites that are
+            efficient and user-friendly.
           </p>
 
           <a download="" href={CV} className="button button--flex">

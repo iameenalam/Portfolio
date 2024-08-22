@@ -56,9 +56,13 @@
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices (768px) */
 @media screen and (max-width: 768px) {
+  .nav {
+    height: calc(var(--header-height) + 1rem)
+  }
+  
   .nav__toggle {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
   }
 
@@ -111,9 +115,13 @@
 
 /* For small devices (375px) */
 @media screen and (max-width: 375px) {
+  .nav {
+    height: calc(var(--header-height) + 1rem)
+  }
+
   .nav__toggle {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
   }
 
