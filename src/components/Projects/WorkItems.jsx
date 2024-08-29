@@ -102,6 +102,87 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
           {item.id === 2 && (
             <>
               <div className="projects">
+                <h3 className="services__modal-title">Twitter Clone</h3>
+                <p className="services__modal-description">
+                  A responsive Twitter clone built with the MERN stack, offering
+                  similar functionalities to the popular social media platform.
+                </p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Sign up, log in, and log out to manage your account.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Create, delete, and like posts, and engage
+                      with others by commenting on tweets.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Customize your profile with a picture and bio.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Follow or unfollow users to curate your personal feed.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Receive instant notifications for new likes, and
+                      follows, ensuring you're always up to date.
+                    </p>
+                  </li>
+                </ul>
+
+                <div className="button-container">
+                  <a
+                    href="https://twitter-clone-p9ry.onrender.com/"
+                    target="_blank"
+                  >
+                    <button className="button button--flex">
+                      Visit Website{" "}
+                      <i
+                        className="uil uil-external-link-alt button__icon"
+                        style={{ fontSize: "1.3rem" }}
+                      ></i>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/iameenalam/Twitter-Clone"
+                    target="_blank"
+                  >
+                    <button
+                      className="button button--flex"
+                      style={{ marginLeft: "1rem" }}
+                    >
+                      Source Code{" "}
+                      <i
+                        className="uil uil-arrow button__icon"
+                        style={{ fontSize: "1.3rem" }}
+                      ></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </>
+          )}
+
+          {item.id === 3 && (
+            <>
+              <div className="projects">
                 <h3 className="services__modal-title">
                   Digital Agency Website
                 </h3>
@@ -162,87 +243,6 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                   </a>
                   <a
                     href="https://github.com/iameenalam/Digital-Agency-Website"
-                    target="_blank"
-                  >
-                    <button
-                      className="button button--flex"
-                      style={{ marginLeft: "1rem" }}
-                    >
-                      Source Code{" "}
-                      <i
-                        className="uil uil-arrow button__icon"
-                        style={{ fontSize: "1.3rem" }}
-                      ></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </>
-          )}
-
-          {item.id === 3 && (
-            <>
-              <div className="projects">
-                <h3 className="services__modal-title">Twitter Clone</h3>
-                <p className="services__modal-description">
-                  A responsive Twitter clone built with the MERN stack, offering
-                  similar functionalities to the popular social media platform.
-                </p>
-
-                <ul className="services__modal-services grid">
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Sign up, log in, and log out to manage your account.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Create, edit, delete, like, and retweet posts, and engage
-                      with others by commenting on tweets.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Customize your profile with a picture and bio.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Follow or unfollow users to curate your personal feed.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Receive instant notifications for new tweets, likes, and
-                      retweets, ensuring you're always up to date.
-                    </p>
-                  </li>
-                </ul>
-
-                <div className="button-container">
-                  <a
-                    href="https://twitter-clone-p9ry.onrender.com/"
-                    target="_blank"
-                  >
-                    <button className="button button--flex">
-                      Visit Website{" "}
-                      <i
-                        className="uil uil-external-link-alt button__icon"
-                        style={{ fontSize: "1.3rem" }}
-                      ></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/iameenalam/Twitter-Clone"
                     target="_blank"
                   >
                     <button
