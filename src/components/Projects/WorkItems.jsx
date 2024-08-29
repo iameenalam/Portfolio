@@ -70,13 +70,15 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                 </ul>
 
                 <div className="button-container">
-                  <button className="button button--flex">
-                    Visit Website{" "}
-                    <i
-                      className="uil uil-external-link-alt button__icon"
-                      style={{ fontSize: "1.3rem" }}
-                    ></i>
-                  </button>
+                  <a href="https://cravin.onrender.com/" target="_blank">
+                    <button className="button button--flex">
+                      Visit Website{" "}
+                      <i
+                        className="uil uil-external-link-alt button__icon"
+                        style={{ fontSize: "1.3rem" }}
+                      ></i>
+                    </button>
+                  </a>
                   <a
                     href="https://github.com/iameenalam/Food-Delivery-App"
                     target="_blank"
@@ -227,7 +229,10 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                 </ul>
 
                 <div className="button-container">
-                  <a>
+                  <a
+                    href="https://twitter-clone-p9ry.onrender.com/"
+                    target="_blank"
+                  >
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
