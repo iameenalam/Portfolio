@@ -16,14 +16,14 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: Digency,
-    title: "Digital Agency Website",
+    image: Twitter__Clone,
+    title: "Twitter Clone",
     category: "capstone",
   },
   {
     id: 3,
-    image: Twitter__Clone,
-    title: "Twitter Clone",
+    image: Digency,
+    title: "Digital Agency Website",
     category: "capstone",
   },
   {
