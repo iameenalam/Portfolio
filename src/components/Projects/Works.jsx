@@ -8,6 +8,7 @@ const Works = () => {
   const [active, setActive] = useState(0);
   const [toggleStates, setToggleStates] = useState({});
   const [visibleProjects, setVisibleProjects] = useState(4);
+  const initialVisibleProjects = 4; // Initial number of visible projects
 
   useEffect(() => {
     if (item.name === "all") {
@@ -17,7 +18,7 @@ const Works = () => {
         return project.category.toLowerCase() === item.name;
       });
       setProjects(newProjects);
-      setVisibleProjects(4);
+      setVisibleProjects(initialVisibleProjects);
     }
   }, [item]);
 
@@ -37,8 +38,18 @@ const Works = () => {
     setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 2);
   };
 
+  const handleShowLess = () => {
+    setVisibleProjects(initialVisibleProjects);
+
+    // Scroll to the #projects section
+    const projectsSection = document.getElementById("projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div>
+    <div id="projects">
       <div className="work__container container grid">
         {projects.slice(0, visibleProjects).map((item) => (
           <WorkItems
@@ -50,13 +61,18 @@ const Works = () => {
         ))}
       </div>
 
-      {visibleProjects < projects.length && (
-        <div className="show-more-container">
+      <div className="show-more-container">
+        {visibleProjects < projects.length && (
           <button className="show-more-button" onClick={handleShowMore}>
             More Projects
           </button>
-        </div>
-      )}
+        )}
+        {visibleProjects >= projects.length && visibleProjects > initialVisibleProjects && (
+          <button className="show-less-button" onClick={handleShowLess}>
+            Show Less
+          </button>
+        )}
+      </div>
     </div>
   );
 };
