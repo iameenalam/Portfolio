@@ -16,7 +16,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: X__Clone__Clone,
+    image: X__Clone,
     title: "X Clone",
     category: "capstone",
   },
