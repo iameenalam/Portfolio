@@ -102,9 +102,9 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
           {item.id === 2 && (
             <>
               <div className="projects">
-                <h3 className="services__modal-title">Twitter Clone</h3>
+                <h3 className="services__modal-title">X Clone</h3>
                 <p className="services__modal-description">
-                  A responsive Twitter clone built with the MERN stack, offering
+                  A responsive X clone built with the MERN stack, offering
                   similar functionalities to the popular social media platform.
                 </p>
 
@@ -161,7 +161,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                     </button>
                   </a>
                   <a
-                    href="https://github.com/iameenalam/Twitter-Clone"
+                    href="https://github.com/iameenalam/X-Clone"
                     target="_blank"
                   >
                     <button
