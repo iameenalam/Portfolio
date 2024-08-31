@@ -1,6 +1,6 @@
 import Food_Del from "../../assets/Food-Del.jpg";
 import Digency from "../../assets/Digency.jpg";
-import Twitter__Clone from "../../assets/Twitter-Clone.jpg";
+import X__Clone from "../../assets/X-Clone.jpg";
 import TinDog from "../../assets/TinDog.jpg";
 import Keeper from "../../assets/Keeper.jpg";
 import Simon__Game from "../../assets/Simon-Game.jpg";
@@ -16,8 +16,8 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: Twitter__Clone,
-    title: "Twitter Clone",
+    image: X__Clone__Clone,
+    title: "X Clone",
     category: "capstone",
   },
   {
