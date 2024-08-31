@@ -12,49 +12,41 @@ export const projectsData = [
     id: 1,
     image: Food_Del,
     title: "Food Delivery App",
-    category: "capstone",
   },
   {
     id: 2,
     image: X__Clone,
     title: "X Clone",
-    category: "capstone",
   },
   {
     id: 3,
     image: Digency,
     title: "Digital Agency Website",
-    category: "capstone",
   },
   {
     id: 4,
     image: TinDog,
     title: "TinDog App",
-    category: "capstone",
   },
   {
     id: 5,
     image: Keeper,
     title: "Keeper App",
-    category: "basic",
   },
   {
     id: 6,
     image: Simon__Game,
     title: "The Simon Game",
-    category: "basic",
   },
   {
     id: 7,
     image: Dice__Game,
     title: "The Dice Game",
-    category: "basic",
   },
   {
     id: 8,
     image: Drum__Kit,
     title: "Drum Kit Website",
-    category: "basic",
   },
 ];
 

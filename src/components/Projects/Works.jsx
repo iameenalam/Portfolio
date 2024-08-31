@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { projectsData, projectsNav } from "./Data";
+import { projectsData } from "./Data";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
@@ -7,6 +7,7 @@ const Works = () => {
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
   const [toggleStates, setToggleStates] = useState({});
+  const [visibleProjects, setVisibleProjects] = useState(4);
 
   useEffect(() => {
     if (item.name === "all") {
@@ -16,6 +17,7 @@ const Works = () => {
         return project.category.toLowerCase() === item.name;
       });
       setProjects(newProjects);
+      setVisibleProjects(4);
     }
   }, [item]);
 
@@ -31,36 +33,30 @@ const Works = () => {
     }));
   };
 
+  const handleShowMore = () => {
+    setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 2);
+  };
+
   return (
     <div>
-      <div className="work__filters">
-        {projectsNav.map((item, index) => {
-          return (
-            <span
-              onClick={(e) => {
-                handleClick(e, index);
-              }}
-              className={`${active === index ? "active-work" : ""} work__item`}
-              key={index}
-            >
-              {item.name}
-            </span>
-          );
-        })}
+      <div className="work__container container grid">
+        {projects.slice(0, visibleProjects).map((item) => (
+          <WorkItems
+            item={item}
+            key={item.id}
+            toggleTab={toggleTab}
+            toggleState={toggleStates[item.id]}
+          />
+        ))}
       </div>
 
-      <div className="work__container container grid">
-        {projects.map((item) => {
-          return (
-            <WorkItems
-              item={item}
-              key={item.id}
-              toggleTab={toggleTab}
-              toggleState={toggleStates[item.id]}
-            />
-          );
-        })}
-      </div>
+      {visibleProjects < projects.length && (
+        <div className="show-more-container">
+          <button className="show-more-button" onClick={handleShowMore}>
+            More Projects
+          </button>
+        </div>
+      )}
     </div>
   );
 };
