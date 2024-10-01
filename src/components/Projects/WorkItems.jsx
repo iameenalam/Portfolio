@@ -23,6 +23,88 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
           {item.id === 1 && (
             <>
               <div className="projects">
+                <h3 className="services__modal-title">E-Commerce Store</h3>
+                <p className="services__modal-description">
+                  ShoeStore is an online store where you can browse and buy
+                  different types of shoes. It's designed to give users a smooth
+                  and simple shopping experience.
+                </p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Browse a wide range of shoes, with detailed product pages
+                      including images, descriptions, and prices.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Add and remove items from the cart, update quantities, and
+                      view the total price before checkout.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Secure login and signup for customers, with a user
+                      dashboard to manage orders and preferences.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Streamlined checkout experience with integrated payment
+                      gateway for secure transactions.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Admins can add, update, and remove products, upload
+                      banners and more.
+                    </p>
+                  </li>
+                </ul>
+
+                <div className="button-container">
+                  <a href="https://e-shoestoree.vercel.app/" target="_blank">
+                    <button className="button button--flex">
+                      Visit Website{" "}
+                      <i
+                        className="uil uil-external-link-alt button__icon"
+                        style={{ fontSize: "1.3rem" }}
+                      ></i>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/iameenalam/E-Commerce-Store"
+                    target="_blank"
+                  >
+                    <button
+                      className="button button--flex"
+                      style={{ marginLeft: "1rem" }}
+                    >
+                      Source Code{" "}
+                      <i
+                        className="uil uil-arrow button__icon"
+                        style={{ fontSize: "1.3rem" }}
+                      ></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </>
+          )}
+
+          {item.id === 2 && (
+            <>
+              <div className="projects">
                 <h3 className="services__modal-title">Food Delivery App</h3>
                 <p className="services__modal-description">
                   Cravin', a responsive MERN stack food delivery website
@@ -99,7 +181,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
             </>
           )}
 
-          {item.id === 2 && (
+          {item.id === 3 && (
             <>
               <div className="projects">
                 <h3 className="services__modal-title">X Clone</h3>
@@ -119,8 +201,8 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Create, delete, and like posts, and engage
-                      with others by commenting on tweets.
+                      Create, delete, and like posts, and engage with others by
+                      commenting on tweets.
                     </p>
                   </li>
 
@@ -141,17 +223,14 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">
-                      Receive instant notifications for new likes, and
-                      follows, ensuring you're always up to date.
+                      Receive instant notifications for new likes, and follows,
+                      ensuring you're always up to date.
                     </p>
                   </li>
                 </ul>
 
                 <div className="button-container">
-                  <a
-                    href="https://xclonee.onrender.com/"
-                    target="_blank"
-                  >
+                  <a href="https://xclonee.onrender.com/" target="_blank">
                     <button className="button button--flex">
                       Visit Website{" "}
                       <i
@@ -180,7 +259,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
             </>
           )}
 
-          {item.id === 3 && (
+          {item.id === 4 && (
             <>
               <div className="projects">
                 <h3 className="services__modal-title">
@@ -261,7 +340,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
             </>
           )}
 
-          {item.id === 4 && (
+          {item.id === 5 && (
             <>
               <div className="projects">
                 <h3 className="services__modal-title">TinDog App</h3>
@@ -331,7 +410,7 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
             </>
           )}
 
-          {item.id === 5 && (
+          {item.id === 6 && (
             <>
               <div className="projects">
                 <h3 className="services__modal-title">Keeper App</h3>
@@ -376,79 +455,6 @@ const WorkItems = ({ item, toggleTab, toggleState }) => {
                   </a>
                   <a
                     href="https://github.com/iameenalam/Keeper-App"
-                    target="_blank"
-                  >
-                    <button
-                      className="button button--flex"
-                      style={{ marginLeft: "1rem" }}
-                    >
-                      Source Code{" "}
-                      <i
-                        className="uil uil-arrow button__icon"
-                        style={{ fontSize: "1.3rem" }}
-                      ></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </>
-          )}
-
-          {item.id === 6 && (
-            <>
-              <div className="projects">
-                <h3 className="services__modal-title">The Simon Game</h3>
-                <p className="services__modal-description">
-                  The Simon Game is a web-based implementation of the classic
-                  memory game "Simon," where players must remember and repeat a
-                  sequence of colors.
-                </p>
-
-                <ul className="services__modal-services grid">
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      The game uses a visually appealing interface with
-                      responsive design.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      Each color in the sequence is accompanied by a distinct
-                      sound.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      As the game progresses, the sequence becomes longer,
-                      challenging your memory.
-                    </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info">
-                      You can restart the game at any time.
-                    </p>
-                  </li>
-                </ul>
-
-                <div className="button-container">
-                  <a href="https://siimon-game.vercel.app/" target="_blank">
-                    <button className="button button--flex">
-                      Visit Website{" "}
-                      <i
-                        className="uil uil-external-link-alt button__icon"
-                        style={{ fontSize: "1.3rem" }}
-                      ></i>
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/iameenalam/The-Simon-Game"
                     target="_blank"
                   >
                     <button
