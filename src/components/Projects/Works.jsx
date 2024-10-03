@@ -8,7 +8,8 @@ const Works = () => {
   const [active, setActive] = useState(0);
   const [toggleStates, setToggleStates] = useState({});
   const [visibleProjects, setVisibleProjects] = useState(4);
-  const initialVisibleProjects = 4; // Initial number of visible projects
+  const [loading, setLoading] = useState(false);
+  const initialVisibleProjects = 4;
 
   useEffect(() => {
     if (item.name === "all") {
@@ -35,17 +36,11 @@ const Works = () => {
   };
 
   const handleShowMore = () => {
-    setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 2);
-  };
-
-  const handleShowLess = () => {
-    setVisibleProjects(initialVisibleProjects);
-
-    // Scroll to the #projects section
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" });
-    }
+    setLoading(true);
+    setTimeout(() => {
+      setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 2);
+      setLoading(false);
+    }, 800);
   };
 
   return (
@@ -63,13 +58,8 @@ const Works = () => {
 
       <div className="show-more-container">
         {visibleProjects < projects.length && (
-          <button className="show-more-button" onClick={handleShowMore}>
-            More Projects
-          </button>
-        )}
-        {visibleProjects >= projects.length && visibleProjects > initialVisibleProjects && (
-          <button className="show-less-button" onClick={handleShowLess}>
-            Show Less
+          <button className="show-more-button" onClick={handleShowMore} disabled={loading}>
+            {loading ? "Loading..." : "More Projects"}
           </button>
         )}
       </div>
